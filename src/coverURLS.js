@@ -26,6 +26,20 @@ const covers = [
     unique: "product-design",
     url:
       "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/OuwO-JPG-PD-Cover-min.jpg"
+  },
+  {
+    id: 5,
+    alt: "text",
+    unique: "mobile-web-development",
+    url:
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/HaTU-Mobile_Web-Cover1.5x.jpg"
+  },
+  {
+    id: 6,
+    alt: "text",
+    unique: "jor",
+    url:
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/5jla-JOR-Cover@1.5x-min.jpg"
   }
 ];
 

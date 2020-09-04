@@ -20,14 +20,14 @@ const images = [
       "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8FL1-Frame-4@2x-min.jpg"
   },
   {
-    id: 3,
-    company: "Nordic Impact | Katapult Learning",
-    description: "Reserach & Development | Business Analysis",
-    alt: "textt",
-    link: "Nordic-Impact",
-    unique: "katapult",
+    id: 4,
+    company: "Personal Projects",
+    description: "Fullstack Mobile & Web Development",
+    alt: "text",
+    link: "Mobile-Web-Development",
+    unique: "mobile-web-development",
     url:
-      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/9EA6-Frame@2x-min.jpg"
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/rw8H-Mobile_Web@2x.jpg"
   },
   {
     id: 4,
@@ -41,10 +41,21 @@ const images = [
   },
   {
     id: 5,
+    company: "Nordic Impact | Katapult Learning",
+    description: "Reserach & Development | Business Analysis",
+    alt: "textt",
+    link: "Nordic-Impact",
+    unique: "katapult",
+    url:
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/9EA6-Frame@2x-min.jpg"
+  },
+
+  {
+    id: 6,
     company: "JOR Farms/GreenTech",
     description: "Research & Development | Business Analysis",
     alt: "text",
-    link: "Product-Design",
+    link: "Jor",
     unique: "jor",
     url:
       "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/l0qQ-Frame-2@2x-min.jpg"

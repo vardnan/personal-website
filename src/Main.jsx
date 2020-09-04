@@ -7,6 +7,8 @@ import UoM from "../pages/UoM";
 import Antler from "../pages/Antler";
 import ProductDesign from "../pages/ProductDesign";
 import NordicImpact from "../pages/NordicImpact";
+import MobileWebDevelopment from "../pages/MobileWebDevelopment";
+import Jor from "../pages/Jor";
 
 const Main = () => {
   return (
@@ -17,6 +19,12 @@ const Main = () => {
         <Route exact path="/Antler" component={Antler}></Route>
         <Route exact path="/Product-Design" component={ProductDesign}></Route>
         <Route exact path="/Nordic-Impact" component={NordicImpact}></Route>
+        <Route
+          exact
+          path="/Mobile-Web-Development"
+          component={MobileWebDevelopment}
+        ></Route>
+        <Route exact path="/Jor" component={Jor}></Route>
       </Switch>
     </AnimatePresence>
   );
