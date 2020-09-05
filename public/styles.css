@@ -285,3 +285,37 @@ a {
   bottom: 2303px;
   will-change: opacity, transform, translateY;
 }
+
+/* MARK - Product-Photos */
+
+.product-container {
+  margin-top: 1150px;
+  position: absolute;
+}
+
+.product-box {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+
+.product-photo {
+  width: 1231px;
+  height: 731px;
+  overflow: visible;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-title {
+  width: auto;
+  height: auto;
+  overflow: visible;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-style: normal;
+}

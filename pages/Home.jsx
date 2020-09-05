@@ -42,7 +42,11 @@ function Home() {
             </h2>
             <h2 id="current-role">
               Currently working as a venture developer @{" "}
-              <a href="https://www.antler.co/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.antler.co/"
+              >
                 <span className="typed-text">Antler</span>
               </a>
             </h2>
