@@ -24,11 +24,10 @@ function MobileWebSection(props) {
           </div>
         </th>
         <th style={{ width: "100%" }}>
-          <img
-            className="mobile-web-simulation"
-            src={props.url}
-            alt={props.alt}
-          />
+          <video className="mobile-web-simulation" loop="true" autoplay="autoplay" muted>
+            <source src={props.url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </th>
       </table>
     </div>
