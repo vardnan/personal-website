@@ -319,3 +319,55 @@ a {
   font-weight: 600;
   font-style: normal;
 }
+
+/* MARK - Mobile Web Section */
+
+.mobile-web-box {
+  display: inline;
+}
+
+.mobile-web-container {
+  margin-top: 1150px;
+  position: absolute;
+}
+
+.mobile-web-text {
+  width: 550px;
+  text-align: left;
+}
+
+.mobile-web-simulation {
+  width: 309px;
+  height: 672px;
+}
+
+#mb-type {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  color: #5f5f5f;
+}
+
+#mb-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 5px;
+  color: #000000;
+}
+
+#mb-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: #000000;
+}
+
+#mb-tools {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 5px;
+  color: #000000;
+}
