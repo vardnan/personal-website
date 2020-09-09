@@ -58,10 +58,11 @@ a {
   position: absolute;
   right: 389px;
   left: 987px;
-  color: #000000;
+  transition: 0.3s;
 }
 
 #work:hover {
+  color: #000000;
   cursor: pointer;
 }
 
@@ -370,4 +371,20 @@ a {
   font-size: 25px;
   line-height: 5px;
   color: #000000;
+}
+
+/* MARK - About Page */
+
+.about-text {
+  width: 587px;
+  height: 543px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-image {
+  width: 415px;
+  height: 545px;
 }

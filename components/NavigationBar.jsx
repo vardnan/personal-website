@@ -12,7 +12,7 @@ function NavigationBar() {
             Work
           </h3>
         </Link>
-        <Link to="/">
+        <Link to="/about">
           <h3 id="about" className="menu-items">
             About
           </h3>
