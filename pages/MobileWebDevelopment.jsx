@@ -17,6 +17,7 @@ function CreateMobileWebSections(sections) {
       tools={sections.tools}
       information={sections.information}
       type={sections.type}
+      github={sections.github}
     />
   );
 }
@@ -24,6 +25,7 @@ function CreateMobileWebSections(sections) {
 function MobileWebDevelopment() {
   return (
     <body>
+     {window.scrollTo(0,0)}
       <div className="App">
         <NavigationBar />
         <div>

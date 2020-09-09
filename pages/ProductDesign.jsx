@@ -15,6 +15,7 @@ function CreateProductPhotos(photos) {
 function ProductDesign() {
   return (
     <body>
+      {window.scrollTo(0,0)}
       <div className="App">
         <NavigationBar />
         <div className="cover-container">

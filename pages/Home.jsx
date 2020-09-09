@@ -25,6 +25,7 @@ function createCard(image) {
 function Home() {
   return (
     <body>
+      {window.scrollTo(0,0)}
       <div className="App">
         <NavigationBar />
         <motion.div
