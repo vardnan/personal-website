@@ -388,3 +388,45 @@ a {
   width: 415px;
   height: 545px;
 }
+
+/* MARK - Jor Page */
+
+.jor-table {
+  margin-top: 1150px;
+  position: absolute;
+  text-align: left;
+  width: 1231px;
+  margin-left: 6.5%;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.jor-process-text {
+  color: #7fd559;
+}
+
+.jor-process-image {
+  position: absolute;
+  width: 534px;
+  height: 678px;
+}
+
+.jor-second-table {
+  margin-top: 3150px;
+  position: absolute;
+  text-align: left;
+  width: 1231px;
+  margin-left: 6.5%;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+#jor-supply-chain {
+  margin-top: 2%;
+  width: 1103px;
+  height: 621.64px;
+}
