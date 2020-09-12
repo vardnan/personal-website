@@ -430,3 +430,20 @@ a {
   width: 1103px;
   height: 621.64px;
 }
+
+.jor-third-table {
+  margin-top: 4400px;
+  position: absolute;
+  text-align: left;
+  width: 1231px;
+  margin-left: 6.5%;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.jor-all-tables h2 {
+  font-weight: 500;
+  font-size: 35px;
+}
