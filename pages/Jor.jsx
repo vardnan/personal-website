@@ -36,8 +36,10 @@ function Jor() {
               <td>
                 <h2>1.0 Overview</h2>
                 <p>
-                  JOR produces premium fruits/vegetables using leading vertical
-                  farming technology.
+                  <i>
+                    JOR produces premium fruits/vegetables using leading
+                    vertical farming technology.
+                  </i>
                   <br />
                   <br />
                   During my internship I developed a 19-page report, based on
@@ -188,6 +190,7 @@ function Jor() {
                   <br />
                   4. Implementing digital tracking solutions for food safety
                   <br />
+                  <br />
                   5. Establishing and structuring a new package factory
                   <br />
                   6. Accessing new and supplementary professional competence
@@ -199,9 +202,10 @@ function Jor() {
                   <br />
                   <span style={{ color: "#7FD559", fontWeight: 500 }}>
                     As the details of this project is concealed under a NDA, I
-                    cannot dive into further specificities.<br/>If you are
-                    interested in particular aspects of the project or have any
-                    questions, please get in touch.
+                    cannot dive into further specificities.
+                    <br />
+                    If you are interested in particular aspects of the project
+                    or have any questions, please get in touch.
                   </span>
                 </p>
               </td>

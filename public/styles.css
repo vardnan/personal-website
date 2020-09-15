@@ -447,3 +447,42 @@ a {
   font-weight: 500;
   font-size: 35px;
 }
+
+/* MARK UOM Page
+ */
+.uom-all-tables h2 {
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.uom-table {
+  margin-top: 1150px;
+  position: absolute;
+  text-align: left;
+  width: 1231px;
+  margin-left: 6.5%;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+#fish-diagram {
+  width: 1047px;
+  height: 596px;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.stakeholder-image {
+  width: 411px;
+  height: 91px;
+}
+
+#stakeholder-column {
+  border-right: 3px solid black;
+  color: blacK;
+}
+
+#stakeholder-table {
+}
