@@ -450,10 +450,6 @@ a {
 
 /* MARK UOM Page
  */
-.uom-all-tables h2 {
-  font-weight: 500;
-  font-size: 35px;
-}
 
 .uom-table {
   margin-top: 1150px;
@@ -461,16 +457,30 @@ a {
   text-align: left;
   width: 1231px;
   margin-left: 6.5%;
-  font-size: 21px;
+  font-size: 20px;
   font-style: normal;
   font-weight: normal;
-  line-height: 35px;
+  line-height: 33px;
+}
+
+.uom-all-tables h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.uom-all-tables h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.uom-all-tables h4 {
+  font-weight: 400;
+  font-size: 25px;
 }
 
 #fish-diagram {
-  width: 1047px;
-  height: 596px;
-  margin-left: 6%;
+  width: 1185px;
+  height: 736px;
   margin-top: 2%;
 }
 
@@ -482,7 +492,4 @@ a {
 #stakeholder-column {
   border-right: 3px solid black;
   color: blacK;
-}
-
-#stakeholder-table {
 }
