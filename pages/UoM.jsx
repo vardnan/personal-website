@@ -68,29 +68,48 @@ function UoM() {
         </p>"
           />
           <Accordion
-            title="1.0 Overview"
-            content=" <p>
-            As part of my studies, I was part of a team project in
-            collaboration with Credit Suisse UK. The goal was to make us
-            students learn by doing — with no specific instructions,
-            lectures, or assistance in mobile development or product
-            design, we were to embark on a journey to develop a fully
-            functional mobile application assisting relationship managers
-            at Credit Suisse.
-            <br />
-            <br />
-            Our only lessons were in project management and teamwork, and
-            our constraints was to solve the problems outlined by Credit
-            Suisse in a project briefing.
-            <br />
-            <br />
-            My team consisted of 5 people from China, South Korea,
-            Croatia, Norway, and the United Kingdom. Initially starting
-            out as complete strangers, we had to face our cultural
-            barriers, lack of experience, and technical hurdles; head on.
-            Until this day, we had never worked with developing or
-            designing a mobile application before.
-          </p>"
+            title="2.0 Project goal"
+            content='   
+          <table id="project-goal-table">
+            <th id="project-goal-th">
+              <p>
+                <span id="project-goal-span">
+                  Developing a mobile application aimig to maximise relationship
+                  managers’ efficiency, resulting in more time spent with
+                  clients and on high-value generating activities.
+                </span>
+                <br />
+                <br />
+                This goal was broken down into two objectives in a project
+                briefing outlined by Credit Suisse UK:
+                <ol>
+                  <li>
+                    Design a dashboard which pulls together a “clean and simple”
+                    interface, allowing the relationship manager to act upon
+                    upcoming client activities, KYC tasks, portfolio and market
+                    alerts, and any other administrative tasks they need to
+                    address.
+                  </li>
+                  <br />
+                  <li>
+                    Provide insights for the relationship managers so they are
+                    able to manage the portfolio of their clients. We want to
+                    see succint and clear analysis looking at profitable trades
+                    and trade types, alongside any trend analysis in connection
+                    to profitable sectors or clients.
+                  </li>
+                </ol>
+              </p>
+            </th>
+            <th>
+              <img
+                id="project-goal-img"
+                src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/fI29-cs-hq-min.jpg"
+                alt="s"
+              />
+            </th>
+          </table>
+        '
           />
           <Accordion
             title="2.0 Project goal"

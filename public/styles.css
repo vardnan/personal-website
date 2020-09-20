@@ -493,3 +493,32 @@ a {
   border-right: 3px solid black;
   color: blacK;
 }
+
+#project-goal-th {
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  width: 648px;
+  height: 760;
+  vertical-align: top;
+}
+#project-goal-span {
+  font-weight: 600;
+}
+
+#project-goal-img {
+  width: 445px;
+  height: 620px;
+  margin-left: 19%;
+  margin-bottom: 6%;
+  border-radius: 8;
+  vertical-align: top;
+}
+
+#project-goal-table {
+  /*margin-top: 2000px;
+  position: absolute;*/
+  line-height: 37.5px;
+}
