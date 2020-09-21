@@ -112,47 +112,283 @@ function UoM() {
         '
           />
           <Accordion
-            title="2.0 Project goal"
-            content="<p>
-            Overall project goal: Developing a mobile application aimig to
-            maximise relationship managers’ efficiency, resulting in more
-            time spent with clients and on high-value generating
-            activities.
-            <br />
-            <br />
-            This goal was broken down into two objectives in a project
-            briefing outlined by Credit Suisse UK:
-            <br />
-            <br />
-            1. Design a dashboard which pulls together a “clean and
-            simple” interface, allowing the relationship manager to act
-            upon upcoming client activities, KYC tasks, portfolio and
-            market alerts, and any other administrative tasks they need to
-            address.
-            <br />
-            <br />
-            2. Provide insights for the relationship managers so they are
-            able to manage the portfolio of their clients. We want to see
-            succint and clear analysis looking at profitable trades and
-            trade types, alongside any trend analysis in connection to
-            profitable sectors or clients.
-          </p>"
+            title="3.0 My role"
+            content='  <p>
+          <div id="my-role-div">
+          I took on the role as the head of product development, being the main
+          designer and developer of the mobile application.
+          <br />
+          <br />
+          The development process was fuled by my rapid prototyping approach
+          utilising various levels of fidelity, my product understandig through
+          past work in venture capital and startups, and my planning &
+          documentation abilities through my experiences in R&D.
+          <br />
+          <br />
+          <span id="my-role-span">Tools I used:</span>
+          <ul>
+            <li> Swift & Xcode</li>
+            <li>Figma & Invision Studio</li>
+            <li>Github</li>
+            <li>Firebase Realtime Database</li>
+            <li>Cocoapods</li>
+          </ul>
+        </p>
+        </div>
+        '
           />
           <Accordion
-            title="3.0 My role"
-            content='<p>
-            Our team started with analysing the project briefing and
-                worked to break down the context, constraints, and the
-                challenges into actionable steps. This was used to form the
-                first iteration of our timelines, product requirements, and
-                overviews of topics we needed to research to succefully solve
-                the specificed problems.
+            title="4.0 Process"
+            content='<div id="process-accordion"><table id="process-table-one">
+          <th id="process-th-one">
+            <p>
+              <span id="process-span-one">4.1 Planning</span>
+              <br />
+              <br />
+              Our team started with analysing the project briefing and worked to
+              break down the context, constraints, and the challenges into
+              actionable steps. This was used to form the first iteration of our
+              timelines, product requirements, and overviews of topics we needed
+              to research to succefully solve the specificed problems.
+              <br />
+              <br />
+              After further iterations based on several brainstorming sessions,
+              we used our analysis to form questions sets for our qualitative
+              interviews with one relationship manager and the Chief Technology
+              Officer of Creditt Suisse UK.
+              <br />
+              <br />
+              Our main focus prior to the interviews was understanding the
+              different terms, technicalities, and dynamics in the wealth
+              management industry, as we rather wanted to focus the interviews
+              on giving us an understanding of the outlined problems and their
+              leverage points, rather than an understanding of the industry
+              itself.
+            </p>
+          </th>
+          <th>
+            <img
+              id="process-img-one"
+              src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/dmrS-IMG_1842+1-min.jpg"
+              alt="s"
+            />
+          </th>
+        </table>
+        <div>
+        <h3>4.2 Stakeholder interviews</h3>
+        <table id="stakeholder-table">
+          <div id="stakeholder-column-div">
+            <tr>
+              <h4>
+                Abdul S.
+                <br />
+                Relationship Manager @ Credit Suisse
+              </h4>
+              <p>
+                Key insight:
+                <br />
+                ”The greatest value-add would be getting suggestions or
+                indications on which actions I should take next, for example
+                regarding the securities in my clients’ portfolio. Also, getting
+                an efficient way to handle my tasks on the go and prepare for
+                client meetings would be valuable”
+                <br />
+                <br />
+                Main concern:
+                <br />
+                Having an application that is difficult to use on-the-go, and
+                that has an overwhelming amount of data/information.
               </p>
-                <img
-                  id="fish-diagram"
-                  src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/wv4b-fishdiagram-min.jpg"
-                  alt="pic"
-                />'
+            </tr>
+          </div>
+          <div id="stakeholder-column-div-two">
+            <tr>
+              <h4>
+                Zahid A.
+                <br />
+                Head of IT @ Credit Suisse
+              </h4>
+              <p>
+                Key insight:
+                <br />
+                ”Relationship managers should be spending more time with clients
+                — the more they do that, the more profitabable they are. If they
+                can do more of their administrative tasks on-the-go with your
+                mobile application, the better.”
+                <br />
+                <br />
+                Main concern:
+                <br />
+                Having an application with security issues, where client data or
+                proprietary information can be leaked or accessed by others.
+              </p>
+            </tr>
+          </div>
+        </table>
+        </div>
+        <div>
+        <p>
+          <span id="process-requirements-span">4.3 Defining final requirements</span><br/><br/>
+          After synthesising the insights gathered from our qualitative
+          interviews, we set off to work on specifying the products
+          requirements even further. Thus we could begin sketching out the
+          first iterations of the design, and which technical features to
+          implement.
+          <br />
+          <br />
+          However, given our limited abilities in mobile development, we
+          prioritised first developing the low hanging fruits, and thereafter
+          trying to implement more advanced technical features — despite their
+          importance.
+          <br />
+          <br />
+          <span id="process-requirements-span-two">
+            Our most important product requirements, post interviews:
+          </span>
+          <ul>
+            <li>Intuitive and easily usable user-interface.</li>
+            <li>
+              Two factor authentication, and no in-app registration
+              capabilities.
+            </li>
+            <li>
+              Clear and succint analysis of clients’ portfolios & KYC
+              progress.
+            </li>
+            <li>
+              Enable essential administrative tasks to be performed on-the-go.
+            </li>
+          </ul>
+        </p>
+        <img
+          id="process-requirements-img"
+          src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/6UV7-requirements-min.jpg"
+          alt="s"
+        />
+      </div>
+        </div>
+        <div id="process-ideation-section">
+        <p>
+          <span id="process-ideation-span">4.4 Ideation & testing</span>
+          <br />
+          <br />
+          The next question was figuring out the best possible and technically
+          feasible solutions for these requirements. Being responsible for our
+          product development process, I took the lead in this phase. I
+          emphasied having an iterative approach with sketches in various
+          fidelities, and rapid feedback from team members, before writing in
+          the code.
+          <br />
+          <br />
+          The core guidelines in my design/development process were the design
+          principles of Dieter Rams — emphasising usability while disregarding
+          anything detracting from it, removing non-essential features, and
+          making the aeasthethics as pleasurable and unobtrusive as possible.
+          <br />
+          <br />
+          As a result, I ended up being greatly inspired by digital analytics
+          dashboards, as their goal is presenting complex information
+          efficiently through visualisations, modularity and structures defined
+          after relevance.
+          <br />
+          <br />
+        </p>
+        <img
+          id="process-ideation-img"
+          src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/lAO3-IMG_1842+3-min.jpg"
+          alt="s"
+        />
+      </div>
+      <div id="process-iterations-section">
+      <p>
+        <span id="process-iterations-span">4.4.1 Layout iterations</span>
+        <br />
+        <br />
+        Having digital dashboards at the back of my mind, I aimed to design
+        modular layout mapping out the core features of the application,
+        making them easily accessible on-the-go, while also presenting the
+        most relevant information on the very first screen.
+        <br />
+        <br />
+        From our insights gathering and defined product requirements, we
+        concluded that the most important features to include were:
+        <br />
+        <ul>
+          <li>Reminders</li>
+          <li>Market alerts/events</li>
+          <li>Calendar view</li>
+          <li>Task manager</li>
+          <li>Client portfolio manager</li>
+          <li>Suggestion or notification centre</li>
+        </ul>
+        <br />
+        All in all, features which give relationship managers an overview
+        and the opportunity to address the most essential day-to-day
+        administrative tasks with ease.
+      </p>
+      <img
+        id="process-iterations-img"
+        src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/XdOF-Group+91-min.png"
+        alt="s"
+      />
+    </div>
+    <div id="process-techchallenges-section">
+          <p>
+            <span id="process-techchallenges-span">
+              4.4.2 Technical challenges
+            </span>
+            <br />
+            <br />
+            As anticipated, we ended up facing a few technical hurdles when
+            trying to implement our features, this was especially the case for
+            more intricate elements of our design.
+            <br />
+            <br />
+            <span id="process-techchallenges-span-two">
+              Some of the challenges we faced:
+            </span>
+            <br />
+            <ol>
+              <li>
+                Creating suggestions centre — a tool to giving recommendations
+                into which securities to trade, based on the developments in a
+                client’s portolio —, was infeasible given our timeline. This
+                required us to develop a recommender engine based on supervised
+                machine learning, which we did not have the time to implement.
+                This feature was changed to rather be an analysis tool
+                showcasing real-time portfolio developments, with an extension
+                to experiment with how changes in asset types affect the
+                respective portfolio values.
+              </li><br />
+              <li>
+                Creating labels quickly presenting essential information on the
+                first screen, was too advanced to implement given my current
+                knowledge in Swift (the programming language). Thus we decided
+                to not include the labels in further design iterations.
+              </li><br />
+              <li>
+                The layout of our market alerts/events feature needed to be
+                changed into a simple page only showcasing essential webpages
+                for market insights. The previous layout was too advanced to
+                implement given its gesture patterns and modularity.
+              </li>
+            </ol>
+            All in all, features which give relationship managers an overview
+            and the opportunity to address the most essential day-to-day
+            administrative tasks with ease.
+          </p>
+        </div>
+        <div id="process-snapshots-section">
+        <p id="process-snapshots-span">
+          4.4.3 Snapshots of some changed designs
+        </p>
+        <img
+          id="process-snapshots-img"
+          src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/lsMW-Group+93-min.png"
+          alt="s"
+        />
+      </div>
+        '
           />
         </div>
       </div>

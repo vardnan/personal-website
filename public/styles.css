@@ -478,34 +478,18 @@ a {
   font-size: 25px;
 }
 
-#fish-diagram {
-  width: 1185px;
-  height: 736px;
-  margin-top: 2%;
-}
-
-.stakeholder-image {
-  width: 411px;
-  height: 91px;
-}
-
-#stakeholder-column {
-  border-right: 3px solid black;
-  color: blacK;
-}
-
 #project-goal-th {
   text-align: left;
   font-family: Poppins;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 350;
   font-size: 20px;
   width: 648px;
   height: 760;
   vertical-align: top;
 }
 #project-goal-span {
-  font-weight: 600;
+  font-weight: 450;
 }
 
 #project-goal-img {
@@ -521,4 +505,174 @@ a {
   /*margin-top: 2000px;
   position: absolute;*/
   line-height: 37.5px;
+}
+
+#process-th-one {
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 350;
+  width: 754px;
+  height: 798px;
+  vertical-align: top;
+}
+
+#process-span-one {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-img-one {
+  width: 362px;
+  height: 542px;
+  margin-left: 19%;
+  margin-bottom: 15%;
+  border-radius: 8;
+  vertical-align: top;
+}
+
+#process-table-one {
+  /*margin-top: 2000px;
+  position: absolute;*/
+  line-height: 37.5px;
+  margin-bottom: -10%;
+}
+
+#process-accordion h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-accordion h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* MARK - My role */
+
+#my-role-div span {
+  font-weight: 450;
+}
+
+/* MARK - Stakeholder interviews */
+
+#stakeholder-table {
+  width: 1231px;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 37.5px;
+}
+
+#stakeholder-column-div {
+  margin-top: 3%;
+  text-align: left;
+}
+
+#stakeholder-column-div-two {
+  text-align: left;
+}
+
+/*MARK - Requirements section */
+
+#process-requirements-img {
+  width: 1185px;
+  height: 736px;
+  margin-top: 3%;
+  border-radius: 8;
+}
+
+#process-requirements-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-requirements-span-two {
+  font-weight: 450;
+  font-size: 20px;
+}
+
+/* MARK - Ideation section */
+
+#process-ideation-img {
+  width: 1185px;
+  height: 736px;
+  margin-top: 1%;
+  border-radius: 8;
+}
+
+#process-ideation-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-ideation-section {
+  margin-top: 4%;
+}
+
+/*MARK - Requirements section */
+
+#process-requirements-img {
+  width: 1185px;
+  height: 736px;
+  margin-top: 3%;
+  border-radius: 8;
+}
+
+#process-requirements-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-requirements-span-two {
+  font-weight: 450;
+  font-size: 20px;
+}
+
+/* MARK - Iterations section */
+
+#process-iterations-img {
+  width: 1099px;
+  height: 1754px;
+  margin-top: 1%;
+}
+
+#process-iterations-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-iterations-section {
+  margin-top: 4%;
+}
+
+/* MARK - Tech challenges section */
+
+#process-techchallenges-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+#process-techchallenges-span-two {
+  font-weight: 450;
+  font-size: 20px;
+}
+
+#process-techchallenges-section {
+  margin-top: 4%;
+}
+
+/* MARK - Snapshorts section */
+
+#process-snapshots-span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#process-snapshots-section {
+  margin-top: 4%;
+}
+
+#process-snapshots-img {
+  width: 1051px;
+  height: 1323px;
+  margin-top: 4%;
+  margin-left: 7%;
 }
