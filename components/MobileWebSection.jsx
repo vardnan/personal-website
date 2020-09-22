@@ -18,7 +18,7 @@ function MobileWebSection(props) {
             <h3 id="mb-title">{props.title}</h3>
             <p id="mb-info">{props.information}</p>
             <p id="mb-tools">
-              <span style={{ fontWeight: "600" }}>Tools: </span>
+              <span style={{ fontWeight: "500" }}>Tools: </span>
               {props.tools}
             </p>
             <table style={{ verticalAlign: "middle" }}>

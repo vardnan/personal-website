@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Accordion from "../components/Accordion";
 import "../components/Accordion.css";
 import OverviewAccordion from "../components/OverviewAccordion";
+import MobileWebSection from "../components/MobileWebSection";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -67,6 +68,28 @@ function UoM() {
           designing a mobile application before.
         </p>"
           />
+          <OverviewAccordion title="2.0 Final result" />
+          <div
+            style={{
+              textAlign: "center",
+              marginBottom: "-7%",
+              marginTop: "-2%"
+            }}
+          >
+            <MobileWebSection
+              key={5}
+              title={"Suisseboard"}
+              url={
+                "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/QR96-smartmockups_keu7i697.mp4"
+              }
+              tools={"Swift, XCode, Cloud Firestore."}
+              information={
+                "Developed a fully functional messenger application for iOS. The back-end is based on Cloud Firestore."
+              }
+              type={"iOS Development"}
+              github={"https://github.com/vardnan/Flash-Chat-iOS13"}
+            />
+          </div>
           <Accordion
             title="2.0 Project goal"
             content='   
@@ -137,6 +160,7 @@ function UoM() {
         </div>
         '
           />
+
           <Accordion
             title="4.0 Process"
             content='<div id="process-accordion"><table id="process-table-one">
