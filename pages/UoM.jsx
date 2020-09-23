@@ -80,18 +80,18 @@ function UoM() {
               key={5}
               title={"Suisseboard"}
               url={
-                "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/QR96-smartmockups_keu7i697.mp4"
+                "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8E5d-smartmockups_kff80hf6.mp4"
               }
-              tools={"Swift, XCode, Cloud Firestore."}
+              tools={"Swift, XCode, Firebase Realtime Database."}
               information={
-                "Developed a fully functional messenger application for iOS. The back-end is based on Cloud Firestore."
+                "A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
               }
               type={"iOS Development"}
-              github={"https://github.com/vardnan/Flash-Chat-iOS13"}
+              github={"https://github.com/vardnan/ITP"}
             />
           </div>
           <Accordion
-            title="2.0 Project goal"
+            title="3.0 Project goal"
             content='   
           <table id="project-goal-table">
             <th id="project-goal-th">
@@ -135,7 +135,7 @@ function UoM() {
         '
           />
           <Accordion
-            title="3.0 My role"
+            title="4.0 My role"
             content='  <p>
           <div id="my-role-div">
           I took on the role as the head of product development, being the main
@@ -162,11 +162,11 @@ function UoM() {
           />
 
           <Accordion
-            title="4.0 Process"
+            title="5.0 Process"
             content='<div id="process-accordion"><table id="process-table-one">
           <th id="process-th-one">
             <p>
-              <span id="process-span-one">4.1 Planning</span>
+              <span id="process-span-one">5.1 Planning</span>
               <br />
               <br />
               Our team started with analysing the project briefing and worked to
@@ -199,7 +199,7 @@ function UoM() {
           </th>
         </table>
         <div>
-        <h3>4.2 Stakeholder interviews</h3>
+        <h3>5.2 Stakeholder interviews</h3>
         <table id="stakeholder-table">
           <div id="stakeholder-column-div">
             <tr>
@@ -252,7 +252,7 @@ function UoM() {
         </div>
         <div>
         <p>
-          <span id="process-requirements-span">4.3 Defining final requirements</span><br/><br/>
+          <span id="process-requirements-span">5.3 Defining final requirements</span><br/><br/>
           After synthesising the insights gathered from our qualitative
           interviews, we set off to work on specifying the products
           requirements even further. Thus we could begin sketching out the
@@ -293,7 +293,7 @@ function UoM() {
         </div>
         <div id="process-ideation-section">
         <p>
-          <span id="process-ideation-span">4.4 Ideation & testing</span>
+          <span id="process-ideation-span">5.4 Ideation & testing</span>
           <br />
           <br />
           The next question was figuring out the best possible and technically
@@ -325,7 +325,7 @@ function UoM() {
       </div>
       <div id="process-iterations-section">
       <p>
-        <span id="process-iterations-span">4.4.1 Layout iterations</span>
+        <span id="process-iterations-span">5.4.1 Layout iterations</span>
         <br />
         <br />
         Having digital dashboards at the back of my mind, I aimed to design
@@ -359,7 +359,7 @@ function UoM() {
     <div id="process-techchallenges-section">
           <p>
             <span id="process-techchallenges-span">
-              4.4.2 Technical challenges
+              5.4.2 Technical challenges
             </span>
             <br />
             <br />
@@ -404,7 +404,7 @@ function UoM() {
         </div>
         <div id="process-snapshots-section">
         <p id="process-snapshots-span">
-          4.4.3 Snapshots of some changed designs
+          5.4.3 Snapshots of some changed designs
         </p>
         <img
           id="process-snapshots-img"
