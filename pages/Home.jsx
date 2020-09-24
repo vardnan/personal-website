@@ -25,7 +25,7 @@ function createCard(image) {
 function Home() {
   return (
     <body>
-      {window.scrollTo(0,0)}
+      {window.scrollTo(0, 0)}
       <div className="App">
         <NavigationBar />
         <motion.div
@@ -33,7 +33,6 @@ function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.15, ...transition }}
         >
-          <div className="card-container">{images.map(createCard)}</div>
           <div className="info-container">
             <h1 id="main-heading">Hi! I am Vardnan</h1>
             <h2 id="sub-heading">
@@ -52,6 +51,7 @@ function Home() {
               </a>
             </h2>
           </div>
+          <div className="card-container">{images.map(createCard)}</div>
         </motion.div>
       </div>
     </body>
