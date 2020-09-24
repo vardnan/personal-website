@@ -84,7 +84,7 @@ function UoM() {
               }
               tools={"Swift, XCode, Firebase Realtime Database."}
               information={
-                "A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
+                "My very first mobile application: A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
               }
               type={"iOS Development"}
               github={"https://github.com/vardnan/ITP"}

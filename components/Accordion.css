@@ -42,6 +42,14 @@
   width: 1231px;
 }
 
+.accordion:active > #chevron {
+  fill: #fcfcfc;
+}
+
+.accordion:hover > #chevron {
+  fill: #fcfcfc;
+}
+
 .accordion:hover > .accordion__title {
   margin-left: 0.6%;
 }
@@ -65,6 +73,7 @@
 /* Style to rotate icon when state is active */
 .rotate {
   transform: rotate(90deg);
+  fill: #fcfcfc;
 }
 
 /* Style the accordion content panel. Note: hidden by default */
