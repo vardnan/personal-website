@@ -25,17 +25,12 @@ function CreateMobileWebSections(sections) {
 function MobileWebDevelopment() {
   return (
     <body>
-     {window.scrollTo(0,0)}
+      {window.scrollTo(0, 0)}
       <div className="App">
         <NavigationBar />
         <div>
-          <Cover
-            alt="text"
-            url={
-              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/HaTU-Mobile_Web-Cover1.5x.jpg"
-            }
-          />
           <motion.div
+            className="cover-title-div"
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: -1, opacity: 1 }}
             transition={{ delay: 0.6, ...transition }}
@@ -45,6 +40,12 @@ function MobileWebDevelopment() {
               Fullstack Mobile & Web Development
             </h3>
           </motion.div>
+          <Cover
+            alt="text"
+            url={
+              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/HaTU-Mobile_Web-Cover1.5x.jpg"
+            }
+          />
         </div>
         <div className="mobile-web-container">
           {mb_sections.map(CreateMobileWebSections)}

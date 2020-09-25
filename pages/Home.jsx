@@ -35,7 +35,7 @@ function Home() {
           transition={{ delay: 0.15, ...transition }}
         >
           <div className="info-container">
-            <h1 id="main-heading">Hi! I am Vardnan</h1>
+            <h1 id="main-heading">Hello~, I am Vardnan.</h1>
             <h2 id="sub-heading">
               I am passionate about{" "}
               <span className="typed-text">product development/management</span>

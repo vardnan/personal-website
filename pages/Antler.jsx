@@ -13,13 +13,8 @@ function Antler() {
       <div className="App">
         <NavigationBar />
         <div>
-          <Cover
-            alt="text"
-            url={
-              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/sDzU-antler-cover@4x.png"
-            }
-          />
           <motion.div
+            className="cover-title-div"
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: -1, opacity: 1 }}
             transition={{ delay: 0.6, ...transition }}
@@ -29,6 +24,12 @@ function Antler() {
               Business Analysis | Fullstack Development & UX
             </h3>
           </motion.div>
+          <Cover
+            alt="text"
+            url={
+              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/sDzU-antler-cover@4x.png"
+            }
+          />
         </div>
       </div>
     </body>

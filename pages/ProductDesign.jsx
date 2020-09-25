@@ -15,11 +15,12 @@ function CreateProductPhotos(photos) {
 function ProductDesign() {
   return (
     <body>
-      {window.scrollTo(0,0)}
+      {window.scrollTo(0, 0)}
       <div className="App">
         <NavigationBar />
         <div className="cover-container">
           <motion.div
+            className="cover-title-div"
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: -1, opacity: 1 }}
             transition={{ delay: 0.6, ...transition }}
@@ -35,7 +36,7 @@ function ProductDesign() {
           />
         </div>
         <div className="product-container">
-        {product_photos.map(CreateProductPhotos)}
+          {product_photos.map(CreateProductPhotos)}
         </div>
       </div>
     </body>

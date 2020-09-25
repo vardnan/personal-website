@@ -17,13 +17,8 @@ function UoM() {
       <div className="App">
         <NavigationBar />
         <div>
-          <Cover
-            alt="text"
-            url={
-              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/4nts-UoM-Cover@4x.png"
-            }
-          />
           <motion.div
+            className="cover-title-div"
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: -1, opacity: 1 }}
             transition={{ delay: 0.5, ...transition }}
@@ -35,11 +30,15 @@ function UoM() {
               Digital Workplace for International Wealth Managers
             </h3>
           </motion.div>
+          <Cover
+            alt="text"
+            url={
+              "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/4nts-UoM-Cover@4x.png"
+            }
+          />
         </div>
         <div
           style={{
-            marginTop: "1100px",
-            position: "absolute",
             textAlign: "left"
           }}
         >
@@ -76,19 +75,21 @@ function UoM() {
               marginTop: "-2%"
             }}
           >
-            <MobileWebSection
-              key={5}
-              title={"Suisseboard"}
-              url={
-                "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8E5d-smartmockups_kff80hf6.mp4"
-              }
-              tools={"Swift, XCode, Firebase Realtime Database."}
-              information={
-                "My very first mobile application: A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
-              }
-              type={"iOS Development"}
-              github={"https://github.com/vardnan/ITP"}
-            />
+            <div style={{ width: "87.2%", marginLeft: "3%" }}>
+              <MobileWebSection
+                key={5}
+                title={"Suisseboard"}
+                url={
+                  "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8E5d-smartmockups_kff80hf6.mp4"
+                }
+                tools={"Swift, XCode, Firebase Realtime Database."}
+                information={
+                  "My very first mobile application: A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
+                }
+                type={"iOS Development"}
+                github={"https://github.com/vardnan/ITP"}
+              />
+            </div>
           </div>
           <Accordion
             title="3.0 Project goal"
@@ -124,7 +125,7 @@ function UoM() {
                 </ol>
               </p>
             </th>
-            <th>
+            <th id="project-goal-img-th">
               <img
                 id="project-goal-img"
                 src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/fI29-cs-hq-min.jpg"
@@ -136,8 +137,7 @@ function UoM() {
           />
           <Accordion
             title="4.0 My role"
-            content='  <p>
-          <div id="my-role-div">
+            content='<div id="my-role-div"> <p>
           I took on the role as the head of product development, being the main
           designer and developer of the mobile application.
           <br />
@@ -190,7 +190,7 @@ function UoM() {
               itself.
             </p>
           </th>
-          <th>
+          <th id="process-img-th">
             <img
               id="process-img-one"
               src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/dmrS-IMG_1842+1-min.jpg"
@@ -284,11 +284,13 @@ function UoM() {
             </li>
           </ul>
         </p>
+        <div id="process-requirements-img-div">
         <img
           id="process-requirements-img"
           src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/6UV7-requirements-min.jpg"
           alt="s"
         />
+        </div>
       </div>
         </div>
         <div id="process-ideation-section">
