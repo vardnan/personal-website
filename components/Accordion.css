@@ -1,3 +1,7 @@
+* {
+  overflow: none;
+}
+
 /* MARK - Accordion */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
@@ -80,7 +84,7 @@
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
   background-color: #fcfcfc;
-  overflow: auto;
+  overflow-x: hidden;
   transition: max-height 0.5s ease;
   max-height: 0;
 }
@@ -92,4 +96,3 @@
   font-size: 20px;
   padding: 18px;
 }
-
