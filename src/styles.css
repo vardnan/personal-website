@@ -329,7 +329,7 @@ a {
 }
 
 .mobile-web-container {
-  position: relative;
+  position: absolute;
 }
 
 .mobile-web-text {
