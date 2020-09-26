@@ -96,3 +96,9 @@
   font-size: 20px;
   padding: 18px;
 }
+
+/* MARK — Jor accordions */
+
+#jor-content {
+  text-align: left;
+}

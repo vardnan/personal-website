@@ -3,6 +3,9 @@ import "../public/styles.css";
 import Cover from "../components/Cover";
 import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
+import Accordion from "../components/Accordion";
+import "../components/Accordion.css";
+import OverviewAccordion from "../components/OverviewAccordion";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -31,37 +34,37 @@ function Jor() {
             }
           />
         </div>
-        <div className="jor-all-tables">
-          <div className="jor-first-table-div">
-            <table className="jor-table">
-              <tr>
-                <td>
-                  <h2>1.0 Overview</h2>
+        <div>
+          <OverviewAccordion
+            title="1.0 Overview"
+            content='<div id="jor-content">
+          <p>
+            <i>
+              JOR produces premium fruits/vegetables using leading vertical
+              farming technology.
+            </i>
+            <br />
+            <br />
+            During my internship I developed a 19-page report, based on
+            extensive quantitative and qualitative research, on how one of the
+            largest Norwegian salad-farms could streamline their value chain to
+            increase their revenue by €95,290+.
+          </p>
+        </div>'
+          />
+        </div>
+        <div>
+          <Accordion
+            title="2.0 Process"
+            content='<div id="jor-content">
                   <p>
-                    <i>
-                      JOR produces premium fruits/vegetables using leading
-                      vertical farming technology.
-                    </i>
-                    <br />
-                    <br />
-                    During my internship I developed a 19-page report, based on
-                    extensive quantitative and qualitative research, on how one
-                    of the largest Norwegian salad-farms could streamline their
-                    value chain to increase their revenue by €95,290+.{" "}
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h2>2.0 Process</h2>
-                  <p>
-                    Our process could be broken down into{" "}
+                    Our process could be broken down into
                     <span style={{ fontWeight: 600 }}>5 phases:</span>
                     <br />
                     <br />
                     <span className="jor-process-text">
                       1. Planning phase
-                    </span>{" "}
+                    </span>
                     — developed stakeholder maps, mapped out the socioeconomical
                     dynamics in a salad farm, formed testable hypotheses, and
                     increased our familiarity with the farming industry through
@@ -70,7 +73,7 @@ function Jor() {
                     <br />
                     <span className="jor-process-text">
                       2. Immersion phase
-                    </span>{" "}
+                    </span>
                     — we spent 2 days at the farm with a free rein to conduct
                     stakeholder interviews and detailed observations. In trying
                     to keep our reserach as human-centred as possible, we
@@ -80,7 +83,7 @@ function Jor() {
                     <br />
                     <span className="jor-process-text">
                       3. Definition phase
-                    </span>{" "}
+                    </span>
                     — after each day at the farm, and the days therafter, our
                     main focus was defining the specific leverage points to
                     increase the farms’ operational efficiency. We came to the
@@ -91,7 +94,7 @@ function Jor() {
                     <br />
                     <span className="jor-process-text">
                       4. Ideation & testing phase
-                    </span>{" "}
+                    </span>
                     — back at the office, we were immersing ourselves in the
                     most up-to-date research on potential solutions to our
                     discovered leverage points. Some of the topics we explored
@@ -104,39 +107,32 @@ function Jor() {
                     <br />
                     <span className="jor-process-text">
                       5. Synthesis phase
-                    </span>{" "}
+                    </span>
                     — our findings and solutions were synthesised into a 19-page
                     report and a presentation deck, delivered to the farm and
-                    the executives of JOR for implementation.{" "}
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  <img
-                    className="jor-process-image"
-                    src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/WCVr-IMG_2109+1-min.jpg"
-                    alt=""
-                    style={{ top: "105%", left: "2%" }}
-                  />
-                </th>
-                <th>
-                  <img
-                    className="jor-process-image"
-                    src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/fRWz-IMG_2109+2-min.jpg"
-                    alt=""
-                    style={{ top: "117%", left: "51%" }}
-                  />
-                </th>
-              </tr>
-            </table>
-          </div>
-          <div className="jor-second-table-div">
-            <table className="jor-second-table">
-              <tr>
-                <td>
-                  <h2>3.0 Findings</h2>
-                  <p>
+                    the executives of JOR for implementation.
+                  </p></div>   <table id="jor-image-table">
+                  <th id="jor-process-img-th-one">
+                    <img
+                      id="jor-process-image"
+                      src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/WCVr-IMG_2109+1-min.jpg"
+                      alt=""
+                    />
+                  </th>
+                  <th id="jor-process-img-th-two">
+                    <img
+                      id="jor-process-img-two"
+                      src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/fRWz-IMG_2109+2-min.jpg"
+                      alt=""
+                    />
+                  </th>
+                </table>'
+          />
+        </div>
+        <div>
+          <Accordion
+            title="3.0 Findings"
+            content='<div id="jor-content"><p>
                     We found that the salad farm already had a forward-leaning
                     approach to implement modern solutions in their production
                     process, however we observed several points of improvements
@@ -161,26 +157,13 @@ function Jor() {
                     the farm’s CEO, and having a customer base of wholesalers
                     with significant market shares and considerable influence on
                     the farms’ operations.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img
-                    id="jor-supply-chain"
-                    src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/NwPR-IMG_2109+3-min.jpg"
-                    alt=""
-                  />
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="jor-third-table-div">
-            <table className="jor-third-table">
-              <tr>
-                <td>
-                  <h2>4.0 Proposed Solutions</h2>
-                  <p>
+                  </p></div>'
+          />
+        </div>
+        <div>
+          <Accordion
+            title="4.0 Proposed solutions"
+            content='  <div id="jor-content"><p>
                     Taking the previously presented context into consideration,
                     we defined 8 concrete leverage points we could target.
                     Solutions to these were separated into 2 phases. The first
@@ -190,9 +173,9 @@ function Jor() {
                     for further drastic improvements.
                     <br />
                     <br />
-                    <span style={{ fontWeight: "600" }}>
+                    <span id="jor-solutions-span-one">
                       Our 8 leverage points were:
-                    </span>{" "}
+                    </span>
                     <br />
                     <br />
                     1. Streamlining their order and invoice system
@@ -215,18 +198,15 @@ function Jor() {
                     8. Implementing a new farm-planning system
                     <br />
                     <br />
-                    <span style={{ color: "#7FD559", fontWeight: 500 }}>
+                    <span id="jor-solutions-span-two">
                       As the details of this project is concealed under a NDA, I
                       cannot dive into further specificities.
                       <br />
                       If you are interested in particular aspects of the project
                       or have any questions, please get in touch.
                     </span>
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </div>
+                  </p></div>'
+          />
         </div>
       </div>
     </body>
