@@ -329,8 +329,7 @@ a {
 }
 
 .mobile-web-container {
-  margin-top: 1150px;
-  position: absolute;
+  position: relative;
 }
 
 .mobile-web-text {
@@ -546,7 +545,6 @@ a {
   position: absolute;*/
   line-height: 37.5px;
 }
-
 
 #process-th-one {
   text-align: left;
