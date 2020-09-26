@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 function NavigationBar() {
   return (
     <div id="navigation">
-      <h3 className="logo">Vardnan Sivarajah</h3>
+      <Link to="/">
+        <h3 className="logo">Vardnan Sivarajah</h3>
+      </Link>
       <div className="navigation-bar">
         <Link to="/">
           <h3 id="work" className="menu-items">

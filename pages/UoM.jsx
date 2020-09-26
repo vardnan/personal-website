@@ -42,9 +42,10 @@ function UoM() {
             textAlign: "left"
           }}
         >
-          <OverviewAccordion
-            title="1.0 Overview"
-            content=" <p>
+          <div>
+            <OverviewAccordion
+              title="1.0 Overview"
+              content=" <p>
           As part of my studies, I was part of a team project in
           collaboration with Credit Suisse UK. The goal was to make us
           students learn by doing — with no specific instructions,
@@ -66,34 +67,38 @@ function UoM() {
           Until this day, we had never worked with developing or
           designing a mobile application before.
         </p>"
-          />
-          <OverviewAccordion title="2.0 Final result" />
-          <div
-            style={{
-              textAlign: "center",
-              marginBottom: "-7%",
-              marginTop: "-2%"
-            }}
-          >
-            <div style={{ width: "87.2%", marginLeft: "3%" }}>
-              <MobileWebSection
-                key={5}
-                title={"Suisseboard"}
-                url={
-                  "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8E5d-smartmockups_kff80hf6.mp4"
-                }
-                tools={"Swift, XCode, Firebase Realtime Database."}
-                information={
-                  "My very first mobile application: A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
-                }
-                type={"iOS Development"}
-                github={"https://github.com/vardnan/ITP"}
-              />
+            />
+          </div>
+          <div>
+            <OverviewAccordion title="2.0 Final result" />
+            <div
+              style={{
+                textAlign: "center",
+                marginBottom: "-7%",
+                marginTop: "-2%"
+              }}
+            >
+              <div style={{ width: "87.2%", marginLeft: "3%" }}>
+                <MobileWebSection
+                  key={5}
+                  title={"Suisseboard"}
+                  url={
+                    "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/8E5d-smartmockups_kff80hf6.mp4"
+                  }
+                  tools={"Swift, XCode, Firebase Realtime Database."}
+                  information={
+                    "My very first mobile application: A functional wealth management application for iOS. The back-end is based on Firebase. Some values are hard-coded."
+                  }
+                  type={"iOS Development"}
+                  github={"https://github.com/vardnan/ITP"}
+                />
+              </div>
             </div>
           </div>
-          <Accordion
-            title="3.0 Project goal"
-            content='   
+          <div>
+            <Accordion
+              title="3.0 Project goal"
+              content='   
           <table id="project-goal-table">
             <th id="project-goal-th">
               <p>
@@ -134,10 +139,12 @@ function UoM() {
             </th>
           </table>
         '
-          />
-          <Accordion
-            title="4.0 My role"
-            content='<div id="my-role-div"> <p>
+            />
+          </div>
+          <div>
+            <Accordion
+              title="4.0 My role"
+              content='<div id="my-role-div"> <p>
           I took on the role as the head of product development, being the main
           designer and developer of the mobile application.
           <br />
@@ -159,11 +166,12 @@ function UoM() {
         </p>
         </div>
         '
-          />
-
-          <Accordion
-            title="5.0 Process"
-            content='<div id="process-accordion"><table id="process-table-one">
+            />
+          </div>
+          <div>
+            <Accordion
+              title="5.0 Process"
+              content='<div id="process-accordion"><table id="process-table-one">
           <th id="process-th-one">
             <p>
               <span id="process-span-one">5.1 Planning</span>
@@ -415,7 +423,8 @@ function UoM() {
         />
       </div>
         '
-          />
+            />
+          </div>
         </div>
       </div>
     </body>
