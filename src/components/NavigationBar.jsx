@@ -19,11 +19,15 @@ function NavigationBar() {
             About
           </h3>
         </Link>
-        <Link to="/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/vardnan/"
+        >
           <h3 id="resume" className="menu-items">
-            Resume
+            LinkedIn
           </h3>
-        </Link>
+        </a>
       </div>
     </div>
   );
