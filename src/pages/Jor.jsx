@@ -62,16 +62,16 @@ function Jor() {
                     <span style={{ fontWeight: 600 }}>5 phases:</span>
                     <br />
                     <br />
-                    <span className="jor-process-text">
+                    <span id="jor-process-text">
                       1. Planning phase
                     </span>
-                    — developed stakeholder maps, mapped out the socioeconomical
+                    — developed stakeholder maps, mapped out the socio-economical
                     dynamics in a salad farm, formed testable hypotheses, and
                     increased our familiarity with the farming industry through
-                    reserach.
+                    research.
                     <br />
                     <br />
-                    <span className="jor-process-text">
+                    <span id="jor-process-text">
                       2. Immersion phase
                     </span>
                     — we spent 2 days at the farm with a free rein to conduct
@@ -81,18 +81,18 @@ function Jor() {
                     organisational hierarchy.
                     <br />
                     <br />
-                    <span className="jor-process-text">
+                    <span id="jor-process-text">
                       3. Definition phase
                     </span>
-                    — after each day at the farm, and the days therafter, our
+                    — after each day at the farm, and the days thereafter, our
                     main focus was defining the specific leverage points to
                     increase the farms’ operational efficiency. We came to the
                     conclusion that a 1% increase in their efficiency would
-                    result to a €95,290 increase in their revenue, which became
+                    result in a €95,290 increase in their revenue, which became
                     our target.
                     <br />
                     <br />
-                    <span className="jor-process-text">
+                    <span id="jor-process-text">
                       4. Ideation & testing phase
                     </span>
                     — back at the office, we were immersing ourselves in the
@@ -101,11 +101,11 @@ function Jor() {
                     were RFID technology, retrofitting modern information
                     systems, and cellular production processes. Potential
                     solutions were regularly discussed with key stakeholders at
-                    the farm to gain insights into feasibility and budget
+                    the farm to gain insights into the feasibility and budget
                     constraints.
                     <br />
                     <br />
-                    <span className="jor-process-text">
+                    <span id="jor-process-text">
                       5. Synthesis phase
                     </span>
                     — our findings and solutions were synthesised into a 19-page
@@ -135,17 +135,17 @@ function Jor() {
             content='<div id="jor-content"><p>
                     We found that the salad farm already had a forward-leaning
                     approach to implement modern solutions in their production
-                    process, however we observed several points of improvements
-                    at systemic level, where processes such as planning,
+                    process, however, we observed several points of improvements
+                    at a systemic level, where processes such as planning,
                     control, data collection, logging, and communication still
                     were impaired by manual work.
                     <br />
                     <br />
                     The latter points formed a significant bottleneck in their
-                    internal and external information-flow. The same applied to
+                    internal and external information flow. The same applied to
                     their supply chain, but here the main negative influences
                     were their lack of access to liquid capital and
-                    repurcussions from previous economical decisions. Moreover,
+                    repercussions from previous economical decisions. Moreover,
                     we found that the greatest leverage point for increasing
                     their operational efficiency lied in their packing factory.
                     <br />
@@ -168,7 +168,7 @@ function Jor() {
                     we defined 8 concrete leverage points we could target.
                     Solutions to these were separated into 2 phases. The first
                     phase considered solutions implementable in the short-term,
-                    resulting in the a 1% increase in operational efficiency,
+                    resulting in a 1% increase in operational efficiency,
                     whereas the second phase considered long-term investments
                     for further drastic improvements.
                     <br />
@@ -183,7 +183,7 @@ function Jor() {
                     2. Implementing digital solutions for logging in their
                     product processes
                     <br />
-                    3. Streamlining communication in the package factory
+                    3. Streamlining communication in the packaging factory
                     <br />
                     4. Implementing digital tracking solutions for food safety
                     <br />
@@ -199,7 +199,7 @@ function Jor() {
                     <br />
                     <br />
                     <span id="jor-solutions-span-two">
-                      As the details of this project is concealed under a NDA, I
+                      As the details of this project are concealed under an NDA, I
                       cannot dive into further specificities.
                       <br />
                       If you are interested in particular aspects of the project

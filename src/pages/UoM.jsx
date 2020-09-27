@@ -56,14 +56,14 @@ function UoM() {
           <br />
           <br />
           Our only lessons were in project management and teamwork, and
-          our constraints was to solve the problems outlined by Credit
+          our constraints were to solve the problems outlined by Credit
           Suisse in a project briefing.
           <br />
           <br />
           My team consisted of 5 people from China, South Korea,
           Croatia, Norway, and the United Kingdom. Initially starting
-          out as complete strangers, we had to face our cultural
-          barriers, lack of experience, and technical hurdles; head on.
+          out as strangers, we had to face our cultural
+          barriers, lack of experience, and technical hurdles; head-on.
           Until this day, we had never worked with developing or
           designing a mobile application before.
         </p>"
@@ -103,7 +103,7 @@ function UoM() {
             <th id="project-goal-th">
               <p>
                 <span id="project-goal-span">
-                  Developing a mobile application aimig to maximise relationship
+                  Developing a mobile application aiming to maximise relationship
                   managers’ efficiency, resulting in more time spent with
                   clients and on high-value generating activities.
                 </span>
@@ -121,9 +121,8 @@ function UoM() {
                   </li>
                   <br />
                   <li>
-                    Provide insights for the relationship managers so they are
-                    able to manage the portfolio of their clients. We want to
-                    see succint and clear analysis looking at profitable trades
+                    Provide insights for the relationship managers so they can manage the portfolio of their clients. We want to
+                    see succinct and clear analysis looking at profitable trades
                     and trade types, alongside any trend analysis in connection
                     to profitable sectors or clients.
                   </li>
@@ -149,8 +148,8 @@ function UoM() {
           designer and developer of the mobile application.
           <br />
           <br />
-          The development process was fuled by my rapid prototyping approach
-          utilising various levels of fidelity, my product understandig through
+          The development process was fueled by my rapid prototyping approach
+          utilising various levels of fidelity, my product understanding through
           past work in venture capital and startups, and my planning &
           documentation abilities through my experiences in R&D.
           <br />
@@ -181,13 +180,13 @@ function UoM() {
               break down the context, constraints, and the challenges into
               actionable steps. This was used to form the first iteration of our
               timelines, product requirements, and overviews of topics we needed
-              to research to succefully solve the specificed problems.
+              to research to successfully solve the specified problems.
               <br />
               <br />
               After further iterations based on several brainstorming sessions,
               we used our analysis to form questions sets for our qualitative
-              interviews with one relationship manager and the Chief Technology
-              Officer of Creditt Suisse UK.
+              interviews with one relationship manager and the Head of IT
+              of Credit Suisse UK.
               <br />
               <br />
               Our main focus prior to the interviews was understanding the
@@ -244,7 +243,7 @@ function UoM() {
                 Key insight:
                 <br />
                 ”Relationship managers should be spending more time with clients
-                — the more they do that, the more profitabable they are. If they
+                — the more they do that, the more profitable they are. If they
                 can do more of their administrative tasks on-the-go with your
                 mobile application, the better.”
                 <br />
@@ -262,8 +261,8 @@ function UoM() {
         <p>
           <span id="process-requirements-span">5.3 Defining final requirements</span><br/><br/>
           After synthesising the insights gathered from our qualitative
-          interviews, we set off to work on specifying the products
-          requirements even further. Thus we could begin sketching out the
+          interviews, we set off to work on specifying the
+          requirements of the product even further. Thus we could begin sketching out the
           first iterations of the design, and which technical features to
           implement.
           <br />
@@ -280,11 +279,11 @@ function UoM() {
           <ul>
             <li>Intuitive and easily usable user-interface.</li>
             <li>
-              Two factor authentication, and no in-app registration
+              Two-factor authentication, and no in-app registration
               capabilities.
             </li>
             <li>
-              Clear and succint analysis of clients’ portfolios & KYC
+              Clear and succinct analysis of clients’ portfolios & KYC
               progress.
             </li>
             <li>
@@ -309,7 +308,7 @@ function UoM() {
           The next question was figuring out the best possible and technically
           feasible solutions for these requirements. Being responsible for our
           product development process, I took the lead in this phase. I
-          emphasied having an iterative approach with sketches in various
+          emphasised having an iterative approach with sketches in various
           fidelities, and rapid feedback from team members, before writing in
           the code.
           <br />
@@ -317,7 +316,7 @@ function UoM() {
           The core guidelines in my design/development process were the design
           principles of Dieter Rams — emphasising usability while disregarding
           anything detracting from it, removing non-essential features, and
-          making the aeasthethics as pleasurable and unobtrusive as possible.
+          making the aesthetics as pleasurable and unobtrusive as possible.
           <br />
           <br />
           As a result, I ended up being greatly inspired by digital analytics
@@ -384,9 +383,9 @@ function UoM() {
             <br />
             <ol>
               <li>
-                Creating suggestions centre — a tool to giving recommendations
+                Creating suggestions centre — a tool for giving recommendations
                 into which securities to trade, based on the developments in a
-                client’s portolio —, was infeasible given our timeline. This
+                client’s portfolio —, was infeasible given our timeline. This
                 required us to develop a recommender engine based on supervised
                 machine learning, which we did not have the time to implement.
                 This feature was changed to rather be an analysis tool
