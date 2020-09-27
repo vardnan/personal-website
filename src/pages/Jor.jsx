@@ -59,7 +59,7 @@ function Jor() {
             content='<div id="jor-content">
                   <p>
                     Our process could be broken down into
-                    <span style={{ fontWeight: 600 }}>5 phases:</span>
+                    <span id="jor-process-span-one">5 phases:</span>
                     <br />
                     <br />
                     <span id="jor-process-text">
@@ -76,7 +76,7 @@ function Jor() {
                     </span>
                     — we spent 2 days at the farm with a free rein to conduct
                     stakeholder interviews and detailed observations. In trying
-                    to keep our reserach as human-centred as possible, we
+                    to keep our research as human-centred as possible, we
                     interviewed key persons in every level of the farm’s
                     organisational hierarchy.
                     <br />
@@ -147,7 +147,7 @@ function Jor() {
                     were their lack of access to liquid capital and
                     repercussions from previous economical decisions. Moreover,
                     we found that the greatest leverage point for increasing
-                    their operational efficiency lied in their packing factory.
+                    their operational efficiency lied in their packaging factory.
                     <br />
                     <br />
                     In addition, it must be pinpointed that several of the
@@ -163,7 +163,7 @@ function Jor() {
         <div>
           <Accordion
             title="4.0 Proposed solutions"
-            content='  <div id="jor-content"><p>
+            content='<div id="jor-content"><p>
                     Taking the previously presented context into consideration,
                     we defined 8 concrete leverage points we could target.
                     Solutions to these were separated into 2 phases. The first
@@ -176,28 +176,18 @@ function Jor() {
                     <span id="jor-solutions-span-one">
                       Our 8 leverage points were:
                     </span>
-                    <br />
-                    <br />
-                    1. Streamlining their order and invoice system
-                    <br />
-                    2. Implementing digital solutions for logging in their
-                    product processes
-                    <br />
-                    3. Streamlining communication in the packaging factory
-                    <br />
-                    4. Implementing digital tracking solutions for food safety
-                    <br />
-                    <br />
-                    5. Establishing and structuring a new package factory
-                    <br />
-                    6. Accessing new and supplementary professional competence
-                    <br />
-                    7. Implementing solutions to resolve current language
-                    barriers
-                    <br />
-                    8. Implementing a new farm-planning system
-                    <br />
-                    <br />
+                  <ol>
+                    <li>Streamlining their order and invoice system</li>
+                    <li>Implementing digital solutions for logging in their
+                    product processes</li>
+                    <li>Streamlining communication in the packaging factory</li>
+                    <li>Implementing digital tracking solutions for food safety</li>
+                    <br/>
+                    <li>Establishing and structuring a new package factory</li>
+                    <li>Accessing new and supplementary professional competence</li>
+                    <li>Implementing solutions to resolve current language barriers</li>
+                    <li>Implementing a new farm-planning system</li>
+                  </ol>
                     <span id="jor-solutions-span-two">
                       As the details of this project are concealed under an NDA, I
                       cannot dive into further specificities.

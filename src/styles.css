@@ -402,7 +402,11 @@ a {
   line-height: 35px;
 }
 
-.jor-process-text {
+#jor-process-span-one {
+  font-weight: 450;
+}
+
+#jor-process-text {
   color: #7fd559;
 }
 
@@ -475,12 +479,12 @@ a {
 }
 
 #jor-solutions-span-one {
-  font-weight: 600;
+  font-weight: 450;
 }
 
 #jor-solutions-span-two {
   color: #7fd559;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 /* MARK UOM Page */

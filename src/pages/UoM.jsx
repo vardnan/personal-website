@@ -186,7 +186,7 @@ function UoM() {
               After further iterations based on several brainstorming sessions,
               we used our analysis to form questions sets for our qualitative
               interviews with one relationship manager and the Head of IT
-              of Credit Suisse UK.
+              at Credit Suisse UK.
               <br />
               <br />
               Our main focus prior to the interviews was understanding the
@@ -221,7 +221,7 @@ function UoM() {
                 ”The greatest value-add would be getting suggestions or
                 indications on which actions I should take next, for example
                 regarding the securities in my clients’ portfolio. Also, getting
-                an efficient way to handle my tasks on the go and prepare for
+                an efficient way to handle my tasks on-the-go and prepare for
                 client meetings would be valuable”
                 <br />
                 <br />
@@ -391,11 +391,10 @@ function UoM() {
                 This feature was changed to rather be an analysis tool
                 showcasing real-time portfolio developments, with an extension
                 to experiment with how changes in asset types affect the
-                respective portfolio values.
+                value of client portfolios.
               </li><br />
               <li>
-                Creating labels quickly presenting essential information on the
-                first screen, was too advanced to implement given my current
+                Creating detail-labels presenting essential information in each modular section, was too advanced to implement given my current
                 knowledge in Swift (the programming language). Thus we decided
                 to not include the labels in further design iterations.
               </li><br />
@@ -406,9 +405,6 @@ function UoM() {
                 implement given its gesture patterns and modularity.
               </li>
             </ol>
-            All in all, features which give relationship managers an overview
-            and the opportunity to address the most essential day-to-day
-            administrative tasks with ease.
           </p>
         </div>
         <div id="process-snapshots-section">
