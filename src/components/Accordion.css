@@ -102,3 +102,13 @@
 #jor-content {
   text-align: left;
 }
+
+/* MARK — Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+}
+
+/* Mobiles */
+@media screen and (max-width: 480px) {
+}
