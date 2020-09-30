@@ -6,7 +6,6 @@ import NavBar from "./NavBar";
 function NavigationBar() {
   return (
     <div>
-      <NavBar />
       <div id="navigation">
         <Link to="/">
           <h3 className="logo">Vardnan Sivarajah</h3>

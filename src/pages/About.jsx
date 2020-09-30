@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.css";
 import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.8, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -10,7 +11,7 @@ function About() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

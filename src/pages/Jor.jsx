@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Accordion from "../components/Accordion";
 import "../components/Accordion.css";
 import OverviewAccordion from "../components/OverviewAccordion";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -14,7 +15,7 @@ function Jor() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <motion.div
           className="cover-title-div"
           initial={{ y: 30, opacity: 0 }}

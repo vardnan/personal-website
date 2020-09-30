@@ -5,25 +5,38 @@ import styled from "styled-components";
 import Burger from "./Burger";
 
 const Nav = styled.nav`
-  width: 100%;
-  height: 65px;
-  border-bottom: 2px solid #0000;
-  padding: 0 20px;
+  width: 88%;
+  height: 55px;
+  margin-left: 5%;
+
   display: flex;
   justify-content: space-between;
 
-  .navbar-logo {
-    padding: 15px 0;
+  .new-logo {
+    padding: 35px;
+    padding-bottom: 0;
+    color: #000000;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 0%;
   }
 `;
 
-function NavBar() {
+const Navbar = () => {
   return (
     <Nav>
-      <div className="navbar-logo">Vardnan Sivarajah</div>
+      <Link to="/">
+        <div className="new-logo">Vardnan Sivarajah</div>
+      </Link>
       <Burger />
     </Nav>
   );
-}
+};
 
-export default NavBar;
+export default Navbar;

@@ -7,6 +7,7 @@ import Accordion from "../components/Accordion";
 import "../components/Accordion.css";
 import OverviewAccordion from "../components/OverviewAccordion";
 import MobileWebSection from "../components/MobileWebSection";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -15,7 +16,7 @@ function UoM() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <div>
           <motion.div
             className="cover-title-div"
@@ -78,7 +79,7 @@ function UoM() {
                 marginTop: "-2%"
               }}
             >
-              <div style={{ width: "87.2%", marginLeft: "3%" }}>
+              <div id="uom-mobile-web">
                 <MobileWebSection
                   key={5}
                   title={"Suisseboard"}

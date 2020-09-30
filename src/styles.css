@@ -94,7 +94,7 @@ a {
   color: #000000;
   font-size: 35px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 400;
   font-style: normal;
   top: 24%;
@@ -109,7 +109,7 @@ a {
   color: #000000;
   font-size: 30px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 350;
   font-style: normal;
   top: 31%;
@@ -124,7 +124,7 @@ a {
   color: #000000;
   font-size: 30px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 350;
   font-style: normal;
   top: 38%;
@@ -332,13 +332,21 @@ a {
   position: absolute;
 }
 
+#mobile-web-table-th {
+  width: 40%;
+}
+
+#mobile-web-table-th-simulation {
+  width: 60%;
+}
+
 .mobile-web-text {
-  width: 550px;
+  width: 100%;
   text-align: left;
 }
 
 .mobile-web-simulation {
-  width: 309px;
+  width: 40%;
   height: 672px;
 }
 
@@ -372,6 +380,27 @@ a {
   font-size: 20px;
   line-height: 5px;
   color: #000000;
+}
+
+#mobile-web-table {
+  width: 100%;
+  vertical-align: middle;
+  margin-left: 10%;
+  margin-bottom: 8%;
+}
+
+#github-p {
+  font-weight: 400;
+  color: #2965ff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#github-img {
+  margin-left: 7px;
+  width: 28px;
+  height: 28px;
+  margin-top: -3.8px;
 }
 
 /* MARK - About Page */
@@ -618,6 +647,10 @@ a {
 #stakeholder-column-div-two {
   text-align: left;
 }
+#uom-mobile-web {
+  width: 87.2%;
+  margin-left: 3%;
+}
 
 /*MARK - Requirements section */
 
@@ -733,6 +766,8 @@ a {
 
 /* Mobiles */
 @media screen and (max-width: 480px) {
+  /* MARK — Home page */
+
   .logo {
     width: 50%;
     height: 2%;
@@ -779,43 +814,321 @@ a {
     border-radius: 10px;
   }
 
-  .card-overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.35s;
-  }
-
-  .card-overlay:hover {
-    opacity: 1;
-  }
-
-  .card-overlay:hover > * {
-    transform: translateY(0);
-  }
-
-  .card-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.35s;
-  }
-
   .card-overlay-title {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: -10px;
   }
 
   .card-overlay-desc {
-    font-size: 15px;
+    font-size: 11px;
+    font-weight: 350;
+  }
+
+  /* MARK — Cover component */
+
+  .cover {
+    width: 100%;
+    height: 213px;
+    top: 43%;
+    left: 7%;
+    margin-bottom: 3%;
+  }
+
+  .cover-title {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    top: 172px;
+    bottom: 2358px;
+  }
+
+  .cover-title-div {
+    margin-bottom: 0.1%;
+    margin-top: 18%;
+  }
+
+  .cover-description {
+    font-size: 18px;
+    line-height: 1.2;
     font-weight: 400;
+    font-style: normal;
+    top: 239px;
+    bottom: 2303px;
+  }
+
+  /* MARK — Mobile Web Component */
+
+  #uom-mobile-web {
+    width: 100%;
+  }
+
+  .mobile-web-box {
+    display: inline-block;
+  }
+
+  .mobile-web-container {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  #mobile-web-table-th {
+    width: 53%;
+  }
+
+  #mobile-web-table-th-simulation {
+    width: 47%;
+  }
+
+  .mobile-web-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .mobile-web-simulation {
+    width: 100%;
+    height: 50%;
+  }
+
+  #mb-type {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #5f5f5f;
+  }
+
+  #mb-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  #mb-info {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    color: #000000;
+    line-height: 25px;
+  }
+
+  #mb-tools {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  #mobile-web-table {
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-bottom: 8%;
+  }
+
+  #github-p {
+    font-weight: 400;
+    color: #2965ff;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  #github-img {
+    width: 28px;
+    height: 28px;
+    margin-top: -3.8px;
+  }
+
+  /* MARK — UoM page */
+
+  #project-goal-th {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    line-height: 28px;
+  }
+
+  #project-goal-img-th {
+    width: 0%;
+  }
+  #project-goal-span {
+    font-weight: 450;
+  }
+
+  #project-goal-img {
+    display: none;
+  }
+
+  #project-goal-table {
+    /*margin-top: 2000px;
+    position: absolute;*/
+    line-height: 28px;
+  }
+
+  #process-th-one {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    line-height: 28px;
+  }
+
+  #process-img-th {
+    width: 0%;
+  }
+
+  #process-span-one {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-img-one {
+    display: none;
+  }
+
+  #process-table-one {
+    line-height: 37.5px;
+    margin-bottom: 2%;
+  }
+
+  #process-accordion h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-accordion h4 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  /* MARK - My role */
+
+  #my-role-div span {
+    font-weight: 450;
+  }
+
+  /* MARK - Stakeholder interviews */
+
+  #stakeholder-table {
+    width: 1231px;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 37.5px;
+  }
+
+  #stakeholder-column-div {
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  #stakeholder-column-div-two {
+    text-align: left;
+  }
+  #uom-mobile-web {
+    width: 87.2%;
+    margin-left: 3%;
+  }
+
+  #process-requirements-span-two {
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  /* MARK - Ideation section */
+
+  #process-ideation-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 8;
+  }
+
+  #process-ideation-span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-ideation-section {
+    margin-top: 4%;
+  }
+
+  /*MARK - Requirements section */
+
+  #process-requirements-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8;
+  }
+
+  #process-requirements-span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-requirements-span-two {
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  /* MARK - Iterations section */
+
+  #process-iterations-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-iterations-span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-iterations-section {
+    margin-top: 4%;
+  }
+
+  /* MARK - Tech challenges section */
+
+  #process-techchallenges-span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  #process-techchallenges-span-two {
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  #process-techchallenges-section {
+    margin-top: 4%;
+  }
+
+  /* MARK - Snapshorts section */
+
+  #process-snapshots-span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #process-snapshots-section {
+    margin-top: 4%;
+  }
+
+  #process-snapshots-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 0px;
   }
 }

@@ -3,6 +3,7 @@ import "../styles.css";
 import Cover from "../components/Cover";
 import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -11,7 +12,7 @@ function NordicImpact() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <div>
           <motion.div
             className="cover-title-div"

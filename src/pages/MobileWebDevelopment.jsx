@@ -5,6 +5,7 @@ import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
 import MobileWebSection from "../components/MobileWebSection";
 import mb_sections from "../mobileWebSectionURLs";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -27,7 +28,7 @@ function MobileWebDevelopment() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <div>
           <motion.div
             className="cover-title-div"

@@ -5,9 +5,9 @@ import images from "../imagesURLs";
 import NavigationBar from "../components/NavigationBar";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.8, ease: [0.6, 0.01, -0.05, 0.9] };
-
 
 function createCard(image) {
   return (
@@ -28,12 +28,12 @@ function Home() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.15, ...transition }}
         >
+          <NavBar />
           <div className="info-container">
             <h1 id="main-heading">Hello~, I am Vardnan.</h1>
             <h2 id="sub-heading">
