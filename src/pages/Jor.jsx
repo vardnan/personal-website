@@ -163,7 +163,7 @@ function Jor() {
         </div>
         <div>
           <Accordion
-            title="4.0 Proposed solutions"
+            title="4.0 Solutions"
             content='<div id="jor-content"><p>
                     Taking the previously presented context into consideration,
                     we defined 8 concrete leverage points we could target.
