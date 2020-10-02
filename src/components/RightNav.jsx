@@ -6,6 +6,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  height: 100%;
 
   li {
     padding: 21px 25px;
@@ -41,17 +42,17 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <Link to="/">
-        <li id="li-size">Home</li>
+        <li id="li-items">Home</li>
       </Link>
       <Link to="/about">
-        <li id="li-size">About</li>
+        <li id="li-items">About</li>
       </Link>
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/vardnan/"
       >
-        <li id="li-size">LinkedIn</li>
+        <li id="li-items">LinkedIn</li>
       </a>
     </Ul>
   );

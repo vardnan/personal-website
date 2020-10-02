@@ -230,6 +230,16 @@ a {
   margin: 3px 3px 3px 3px;
 }
 
+/* MARK — New Nav Bar */
+
+#li-items {
+  transition: 0.3s;
+}
+
+#li-items:hover {
+  letter-spacing: 3px;
+}
+
 /* Mark - Cover Pages */
 
 .cover {
@@ -372,14 +382,14 @@ a {
   font-weight: 350;
   font-size: 20px;
   color: #000000;
-  line-height: 37.5px;
+  line-height: 30px;
 }
 
 #mb-tools {
   font-style: normal;
   font-weight: 250;
   font-size: 20px;
-  line-height: 5px;
+  line-height: 30px;
   color: #000000;
 }
 
@@ -775,8 +785,97 @@ a {
 
 /* MARK — Media Queries */
 
-/* Tablets */
+/* Tabelts Horizontal */
+
+@media screen and (max-width: 2732px) {
+}
+
+/* Tablets Vertical */
 @media screen and (max-width: 1024px) {
+  /* MARK — Home page */
+
+  #main-heading {
+    font-size: 33px;
+    font-weight: 400;
+  }
+
+  #sub-heading {
+    font-size: 27px;
+    font-weight: 350;
+  }
+
+  #current-role {
+    font-size: 27px;
+    font-weight: 350;
+    width: 50%;
+  }
+
+  .card-overlay-title {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: -10px;
+  }
+
+  .card-overlay-desc {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  /* MARK — UoM Page */
+
+  .mobile-web-simulation {
+    width: 50%;
+    height: 50%;
+  }
+
+  #project-goal-img-th {
+    display: none;
+  }
+
+  #process-img-th {
+    display: none;
+  }
+
+  #process-requirements-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-ideation-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-iterations-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-snapshots-img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+  }
+
+  /* MARK  — Jor page */
+
+  #jor-process-image {
+    width: 100%;
+    height: 37%;
+  }
+
+  #jor-process-img-two {
+    margin-top: 10%;
+    vertical-align: middle;
+    width: 100%;
+    height: 37%;
+  }
+
+  /* MARK — About page */
+
+  #about-img-th {
+    display: none;
+  }
 }
 
 /* Mobiles */

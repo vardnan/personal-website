@@ -23,6 +23,10 @@ const Nav = styled.nav`
     font-family: "Poppins", sans-serif;
   }
 
+  @media (max-width: 1024px) {
+    margin-left: 3%;
+  }
+
   @media (max-width: 768px) {
     margin-left: 0%;
   }
