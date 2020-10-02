@@ -5,12 +5,15 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@animated-burgers/burger": "1.1.2",
+    "@animated-burgers/burger-squeeze": "1.1.2",
     "framer-motion": "2.6.5",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "styled-components": "5.2.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"

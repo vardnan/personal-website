@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.css";
 import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
+import NavBar from "../components/NavBar";
 
 const transition = { duration: 0.8, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -10,30 +11,21 @@ function About() {
     <body>
       {window.scrollTo(0, 0)}
       <div className="App">
-        <NavigationBar />
+        <NavBar />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.15, ...transition }}
         >
-          <table
-            style={{
-              verticalAlign: "middle",
-              marginLeft: "6%",
-              marginTop: "8%",
-              marginBottom: "2%"
-            }}
-          >
-            <th>
+          <table id="about-table">
+            <th id="about-img-th">
               <img
                 className="about-image"
                 src="https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/YPfb-Vardnan.jpg"
                 alt="Vardnan"
               />
             </th>
-            <th
-              style={{ paddingTop: "5%", paddingLeft: "7%", textAlign: "left" }}
-            >
+            <th id="about-text-th">
               <p className="about-text">
                 <span style={{ fontWeight: 400 }}>
                   I am driven by an innate curiosity for why the world is the

@@ -94,7 +94,7 @@ a {
   color: #000000;
   font-size: 35px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 400;
   font-style: normal;
   top: 24%;
@@ -109,7 +109,7 @@ a {
   color: #000000;
   font-size: 30px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 350;
   font-style: normal;
   top: 31%;
@@ -124,7 +124,7 @@ a {
   color: #000000;
   font-size: 30px;
   letter-spacing: 0px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 350;
   font-style: normal;
   top: 38%;
@@ -230,6 +230,16 @@ a {
   margin: 3px 3px 3px 3px;
 }
 
+/* MARK — New Nav Bar */
+
+#li-items {
+  transition: 0.3s;
+}
+
+#li-items:hover {
+  letter-spacing: 3px;
+}
+
 /* Mark - Cover Pages */
 
 .cover {
@@ -301,13 +311,14 @@ a {
 }
 
 .product-photo {
-  width: 1231px;
-  height: 731px;
+  width: 90.1%;
+  height: 90%;
   overflow: visible;
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 0px;
 }
 
 .product-title {
@@ -332,13 +343,21 @@ a {
   position: absolute;
 }
 
+#mobile-web-table-th {
+  width: 40%;
+}
+
+#mobile-web-table-th-simulation {
+  width: 60%;
+}
+
 .mobile-web-text {
-  width: 550px;
+  width: 100%;
   text-align: left;
 }
 
 .mobile-web-simulation {
-  width: 309px;
+  width: 40%;
   height: 672px;
 }
 
@@ -363,15 +382,36 @@ a {
   font-weight: 350;
   font-size: 20px;
   color: #000000;
-  line-height: 37.5px;
+  line-height: 30px;
 }
 
 #mb-tools {
   font-style: normal;
   font-weight: 250;
   font-size: 20px;
-  line-height: 5px;
+  line-height: 30px;
   color: #000000;
+}
+
+#mobile-web-table {
+  width: 100%;
+  vertical-align: middle;
+  margin-left: 10%;
+  margin-bottom: 8%;
+}
+
+#github-p {
+  font-weight: 400;
+  color: #2965ff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#github-img {
+  margin-left: 7px;
+  width: 28px;
+  height: 28px;
+  margin-top: -3.8px;
 }
 
 /* MARK - About Page */
@@ -386,8 +426,22 @@ a {
 }
 
 .about-image {
+  /*width: 64%;*/
   width: 415px;
   height: 545px;
+}
+
+#about-text-th {
+  padding-top: 5%;
+  padding-left: 7%;
+  text-align: left;
+}
+
+#about-table {
+  vertical-align: middle;
+  margin-left: 6%;
+  margin-top: 8%;
+  margin-bottom: 2%;
 }
 
 /* MARK - Jor Page */
@@ -618,6 +672,10 @@ a {
 #stakeholder-column-div-two {
   text-align: left;
 }
+#uom-mobile-web {
+  width: 87.2%;
+  margin-left: 3%;
+}
 
 /*MARK - Requirements section */
 
@@ -727,10 +785,535 @@ a {
 
 /* MARK — Media Queries */
 
-/* Tablets */
-@media screen and (max-width: 1023px) {
+/* Tabelts Horizontal */
+
+@media screen and (max-width: 2732px) {
+}
+
+/* Tablets Vertical */
+@media screen and (max-width: 1024px) {
+  /* MARK — Home page */
+
+  #main-heading {
+    font-size: 33px;
+    font-weight: 400;
+  }
+
+  #sub-heading {
+    font-size: 27px;
+    font-weight: 350;
+  }
+
+  #current-role {
+    font-size: 27px;
+    font-weight: 350;
+    width: 50%;
+  }
+
+  .card-overlay-title {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: -10px;
+  }
+
+  .card-overlay-desc {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  /* MARK — UoM Page */
+
+  .mobile-web-simulation {
+    width: 50%;
+    height: 50%;
+  }
+
+  #project-goal-img-th {
+    display: none;
+  }
+
+  #process-img-th {
+    display: none;
+  }
+
+  #process-requirements-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-ideation-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-iterations-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-snapshots-img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+  }
+
+  /* MARK  — Jor page */
+
+  #jor-process-image {
+    width: 100%;
+    height: 37%;
+  }
+
+  #jor-process-img-two {
+    margin-top: 10%;
+    vertical-align: middle;
+    width: 100%;
+    height: 37%;
+  }
+
+  /* MARK — About page */
+
+  #about-img-th {
+    display: none;
+  }
 }
 
 /* Mobiles */
 @media screen and (max-width: 480px) {
+  /* MARK — Home page */
+
+  .logo {
+    width: 50%;
+    height: 2%;
+    font-size: 20px;
+  }
+
+  #main-heading {
+    width: 80%;
+    height: 5%;
+    font-size: 30px;
+    font-weight: 400;
+    top: 24%;
+    left: 7.2%;
+  }
+
+  #sub-heading {
+    display: none;
+  }
+
+  #current-role {
+    width: 80%;
+    height: 5%;
+    font-size: 25px;
+    top: 31%;
+    left: 7.2%;
+  }
+
+  .info-container {
+    margin-top: 25%;
+  }
+
+  .card-box {
+    position: relative;
+    display: inline-block;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    width: 90%;
+    height: 32%;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: 10px;
+  }
+
+  .card-overlay-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: -10px;
+  }
+
+  .card-overlay-desc {
+    font-size: 11px;
+    font-weight: 350;
+  }
+
+  /* MARK — Cover component */
+
+  .cover {
+    width: 100%;
+    height: 100%;
+    top: 43%;
+    left: 7%;
+    margin-bottom: 3%;
+  }
+
+  .cover-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    top: 172px;
+    bottom: 2358px;
+    margin-bottom: 0px;
+  }
+
+  .cover-title-div {
+    margin-top: 18%;
+    width: 100%;
+  }
+
+  .cover-description {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3%;
+  }
+
+  /* MARK — Mobile Web Component */
+
+  #uom-mobile-web {
+    width: 100%;
+  }
+
+  .mobile-web-box {
+    display: inline-block;
+  }
+
+  .mobile-web-container {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  #mobile-web-table-th {
+    width: 53%;
+  }
+
+  #mobile-web-table-th-simulation {
+    width: 47%;
+  }
+
+  .mobile-web-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .mobile-web-simulation {
+    width: 100%;
+    height: 50%;
+  }
+
+  #mb-type {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #5f5f5f;
+  }
+
+  #mb-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  #mb-info {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    color: #000000;
+    line-height: 25px;
+  }
+
+  #mb-tools {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  #mobile-web-table {
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-bottom: 8%;
+  }
+
+  #github-p {
+    font-weight: 400;
+    color: #2965ff;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  #github-img {
+    width: 28px;
+    height: 28px;
+    margin-top: -3.8px;
+  }
+
+  /* MARK — UoM page */
+
+  #project-goal-th {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    line-height: 28px;
+  }
+
+  #project-goal-img-th {
+    width: 0%;
+  }
+  #project-goal-span {
+    font-weight: 450;
+  }
+
+  #project-goal-img {
+    display: none;
+  }
+
+  #project-goal-table {
+    /*margin-top: 2000px;
+    position: absolute;*/
+    line-height: 28px;
+  }
+
+  #process-th-one {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    line-height: 28px;
+  }
+
+  #process-img-th {
+    width: 0%;
+  }
+
+  #process-span-one {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-img-one {
+    display: none;
+  }
+
+  #process-table-one {
+    line-height: 37.5px;
+    margin-bottom: 2%;
+  }
+
+  #process-accordion h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-accordion h4 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  /* MARK - My role */
+
+  #my-role-div span {
+    font-weight: 450;
+  }
+
+  /* MARK - Stakeholder interviews */
+
+  #stakeholder-table {
+    width: 1231px;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 37.5px;
+  }
+
+  #stakeholder-column-div {
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  #stakeholder-column-div-two {
+    text-align: left;
+  }
+  #uom-mobile-web {
+    width: 87.2%;
+    margin-left: 3%;
+  }
+
+  /* MARK - Ideation section */
+
+  #process-ideation-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 8;
+  }
+
+  #process-ideation-span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-ideation-section {
+    margin-top: 4%;
+  }
+
+  /*MARK - Requirements section */
+
+  #process-requirements-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8;
+  }
+
+  #process-requirements-span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-requirements-span-two {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  /* MARK - Iterations section */
+
+  #process-iterations-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #process-iterations-span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-iterations-section {
+    margin-top: 4%;
+  }
+
+  /* MARK - Tech challenges section */
+
+  #process-techchallenges-span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #process-techchallenges-span-two {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  #process-techchallenges-section {
+    margin-top: 4%;
+  }
+
+  /* MARK - Snapshorts section */
+
+  #process-snapshots-span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #process-snapshots-section {
+    margin-top: 4%;
+  }
+
+  #process-snapshots-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 0px;
+  }
+
+  /* MARK — Product photos */
+
+  .product-container {
+    position: absolute;
+  }
+
+  .product-box {
+    display: inline-block;
+    margin: 15px 20px 15px 0px;
+  }
+
+  .product-photo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-title {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* MARK - Jor Page */
+
+  #jor-process-image {
+    width: 100%;
+    height: 18%;
+  }
+
+  #jor-process-img-two {
+    margin-top: 10%;
+    vertical-align: middle;
+    width: 100%;
+    height: 18%;
+  }
+
+  /* MARK - About Page */
+
+  .about-text {
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .about-image {
+    /*width: 64%;*/
+    width: 100%;
+    height: 30%;
+  }
+
+  #about-text-th {
+    padding: 6px 6px 6px 6px;
+    text-align: left;
+    width: 100%;
+  }
+
+  #about-table {
+    vertical-align: top;
+    margin-left: 0px;
+    margin-top: 15%;
+    width: 100%;
+  }
+
+  #about-img-th {
+    display: none;
+  }
 }
