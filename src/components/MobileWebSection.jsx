@@ -37,9 +37,12 @@ function MobileWebSection(props) {
         <th id="mobile-web-table-th-simulation">
           <video
             className="mobile-web-simulation"
+            muted
+            playsInline
             loop="true"
             autoplay="autoplay"
-            muted
+            controls={false}
+            preload="auto"
           >
             <source src={props.url} type="video/mp4" />
             Your browser does not support the video tag.

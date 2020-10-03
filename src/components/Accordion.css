@@ -67,12 +67,14 @@
   text-align: left;
   transition: 0.2s ease-in;
   vertical-align: middle;
+  margin-bottom: 0px;
 }
 
 /* Style the accordion chevron icon */
 .accordion__icon {
   margin-left: auto;
   transition: transform 0.5s ease;
+  margin-bottom: 0px;
 }
 
 /* Style to rotate icon when state is active */
