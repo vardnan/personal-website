@@ -7,7 +7,7 @@ const images = [
     link: "/antler",
     unique: "antler",
     url:
-      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/boOx-Frame-5@2x-min.jpg"
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/ZOtu-Frame@2x-min.jpg"
   },
   {
     id: 2,
