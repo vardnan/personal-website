@@ -4,6 +4,9 @@ import Cover from "../components/Cover";
 import NavigationBar from "../components/NavigationBar";
 import { motion } from "framer-motion";
 import NavBar from "../components/NavBar";
+import Accordion from "../components/Accordion";
+import "../components/Accordion.css";
+import OverviewAccordion from "../components/OverviewAccordion";
 
 const transition = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -33,6 +36,20 @@ function Antler() {
           />
         </div>
       </div>
+      <OverviewAccordion
+        title="1.0 Overview"
+        content='<div id="jor-content">
+          <p>
+            <i>
+            Antler is the world’s largest tech startup generator, 
+            and an early-stage venture capital firm.</br>Led by the ex-founder of Zalora and ex-Chairman of McKinsey. 
+            </i>
+            <br />
+            <br />
+            <strong>THIS INTERNSHIP IS IN PROGRESS</strong>
+          </p>
+        </div>'
+      />
     </body>
   );
 }
