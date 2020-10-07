@@ -42,7 +42,7 @@ function Antler() {
           <p>
             <i>
             Antler is the world’s largest tech startup generator, 
-            and an early-stage venture capital firm.</br>Led by the ex-founder of Zalora and ex-Chairman of McKinsey. 
+            and an early-stage venture capital firm.
             </i>
             <br />
             <br />
