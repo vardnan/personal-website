@@ -42,7 +42,7 @@ function Home() {
               <span id="cursor">&nbsp;</span>
             </h2>
             <h2 id="current-role">
-              Currently working as a venture developer @{" "}
+              Currently working as a product engineer @{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
