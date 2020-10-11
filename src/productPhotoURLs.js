@@ -4,7 +4,7 @@ const product_photos = [
     title: "Streamline | Meeting Management Tool",
     gif: "gif",
     url:
-      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/wtvs-Streamline-min.jpg"
+      "https://uploads.codesandbox.io/uploads/user/fd760ebc-a259-4eec-b792-8e672dacc7d4/HH2--Streamline-min+(1).jpg"
   },
   {
     id: 2,
